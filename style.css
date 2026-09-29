@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(112, 197, 203);
+}
+
+h1{
+
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.profile-section {
+    display: flex;             /* Puts image and list side-by-side directly */
+    align-items: flex-start;   /* Aligns the bullet to the top of the image */
+    gap: 15px;                 /* EXACT distance between image and text (change this number to adjust) */
+}
+
+.profile-img {
+    width: 700px;              /* Set your desired image width */
+    height: 390px;
+    display: block;
+}
+
+.profile-details {
+    margin: 0;                 /* Removes unwanted default spacing */
+    padding-left: 80px;        /* Keeps bullet indentation tight and tidy */
+}
+li {
+    font-size: 22px;
+}
